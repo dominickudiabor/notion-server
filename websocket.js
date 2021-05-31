@@ -16,9 +16,6 @@ const users = {};
 // User activity history.
 let userActivity = [];
 
-let boardServerState = {}
-
-
 
 const sendMessage = (json) => {
   //Sending the current data to all connected clients
